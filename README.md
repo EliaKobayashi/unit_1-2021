@@ -11,9 +11,12 @@ The owner of the local game shop is an enthusiast of classic computer games. He 
 2. The game must record the time played.
 3. The game must record the player name and score.
 
-Apart for this requirements, the owner is open to any type of game, topic or genre.
+Apart for this requirements, the owner is open to any type of game, topic or genre. 
+
 
 ## Proposed Solution
+
+I will design and make a classic video game for a client who is looking for a text-based video game with a record of player names and scores. The video game will about football and is constructed using the software python It will take a month to make and will be evaluated according to the criteria ____.
 
 ## Success Criteria
 
