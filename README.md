@@ -20,6 +20,14 @@ I will design and make a classic video game for a client who is looking for a te
 
 ## Success Criteria
 
+1. If the ranking table contains username, score, and is able to properly rank based on scores, it can be deemed successful.
+2. It must validate user inputs.
+4. The game will be a career mode video game based on the champions league. Meaning, the user will become a professional football player and play in the Champions League in the game. 
+5. The user will be able to move to different football teams within the game.
+6. The video game will have a login system where the player can save their progress.
+7. The user will have a rating which can be improved based on their proformances in matches.
+8. The game will be available in English and Japanese.
+9. The user will be able to play 10 seasons.
 
 # Criteria B: Design
 
