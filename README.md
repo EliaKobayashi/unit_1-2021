@@ -33,11 +33,17 @@ I will design and make a classic video game for a client who is looking for a te
 
 ## System Diagram
 
+![](compscisystem.jpeg)
+
+Figure 1. System diagram for the proposed solution.
+
+As shown in Fig.1, the proposed solution runs on Python and it is developed using Pycharm (v. 2021). The proposed game, "Champions League Legend"
+
 ## Flow Diagrams
 
 ## Record of Tasks
-| Task No | Planned Action | Planned Outcome | Time estimate | Target completion date | Criterion |
-|---------|----------------|-----------------|---------------|------------------------|-----------|
-|         |                |                 |               |                        |           |
-|         |                |                 |               |                        |           |
-|         |                |                 |               |                        |           |
+| Task No | Planned Action         | Planned Outcome        | Time estimate | Target completion date | Criterion |
+|---------|------------------------|-----------------|---------------|------------------------|-----------|
+|1.       |Create system diagram.  |To have a clear idea of the hardware and software of the program                |               |                        |           |
+|         |                        |                 |               |                        |           |
+|         |                        |                 |               |                        |           |
