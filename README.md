@@ -40,6 +40,8 @@ Figure 1. System diagram for the proposed solution.
 As shown in Fig.1, the proposed solution runs on Python and it is developed using Pycharm (v. 2021). The proposed game, "Champions League Legend"
 
 ## Flow Diagrams
+### Cesar's Cypher
+The database in the game has to be protected so that personal data is not exposed. To solve this I am using the Cesar Cypher. **Fig 2.** shows that flow diagram for this function. 
 
 ## Record of Tasks
 | Task No | Planned Action         | Planned Outcome        | Time estimate | Target completion date | Criterion |
