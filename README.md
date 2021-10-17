@@ -35,7 +35,7 @@ I will design and make a classic video game for a client who is looking for a te
 
 Figure 1. System diagram for the proposed solution.
 
-As shown in Fig.1, the proposed solution runs on Python and it is developed using Pycharm (v. 2021). The proposed game, "Champions League Legend"
+As shown in Fig.1, the proposed solution runs on Python and it is developed using Pycharm (v. 2021). The proposed game, "Champions League Legend" has two inputs (1 and 2). Depending on the input, the output will differ in game situations.
 
 ## Flow Diagrams
 ### Cesar's Cypher
