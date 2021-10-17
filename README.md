@@ -27,6 +27,10 @@ I will design and make a classic video game for a client who is looking for a te
 7. The user will have a rating which can be improved based on their proformances in matches.
 8. The game will be available in English and Japanese.
 
+## Personal Connection
+
+Ever since I was little, I would watch the Champions League with family and friends anually. It was a competition that would bring people together with so much joy and excitement. Even if my favorite team could never win, I had a lot of fun watching the tournament. Thus, I wanted to turn all this nostalgia, joy, and excitement into a game. Additionally, I have seen many text-based games that are focused on mystery or survival. However, it is extremely rare to find a text-based game for football. Hence why I decided to create a football game based on the Champions League.
+
 # Criteria B: Design
 
 ## System Diagram
