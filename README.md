@@ -31,7 +31,7 @@ I will design and make a classic video game for a client who is looking for a te
 
 ## System Diagram
 
-![](system_diagram.png)
+![](system_diagram)
 
 Figure 1. System diagram for the proposed solution.
 
