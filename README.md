@@ -42,6 +42,13 @@ Figure 1. System diagram for the proposed solution.
 As shown in Fig.1, the proposed solution runs on Python and it is developed using Pycharm (v. 2021). The proposed game, "Champions League Legend" has two inputs (1 and 2). Depending on the input, the output will differ in game situations.
 
 ## Flow Diagrams
+
+![(one_flowchart.jpg)
+
+Figure 2. Flow dagram of the entire game
+
+As shown in Fig.2, the game will consist of a plethora of choices carried on by the users. Depending on the choices, the ending of the game will differ as well. Although Fif.2 does not contain all the details of the game, it contains the key elements.
+
 ### Cesar's Cypher
 The database in the game has to be protected so that personal data is not exposed. To solve this I am using the Cesar Cypher. **Fig 2.** shows that flow diagram for this function. 
 
