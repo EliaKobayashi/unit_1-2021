@@ -43,7 +43,7 @@ As shown in Fig.1, the proposed solution runs on Python and it is developed usin
 
 ## Flow Diagrams
 
-![(one_flowchart.jpg)
+![](one_flowchart.jpg)
 
 Figure 2. Flow dagram of the entire game
 
