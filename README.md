@@ -49,6 +49,12 @@ Figure 2. Flow dagram of the entire game
 
 As shown in Fig.2, the game will consist of a plethora of choices carried on by the users. Depending on the choices, the ending of the game will differ as well. Although Fif.2 does not contain all the details of the game, it contains the key elements.
 
+![](second_function.jpg)
+
+Figue 3. Flow diagram of tournament bracket making
+
+As shown in Fig3, the game will contain a bracket making system. This system will randomly place teams into each seed.
+
 ### Cesar's Cypher
 The database in the game has to be protected so that personal data is not exposed. To solve this I am using the Cesar Cypher. **Fig 2.** shows that flow diagram for this function. 
 
