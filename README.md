@@ -55,6 +55,12 @@ Figue 3. Flow diagram of tournament bracket making
 
 As shown in Fig3, the game will contain a bracket making system. This system will randomly place teams into each seed.
 
+![](third_flowchart.jpg)
+
+Figure 4. Flow diagram of encoder
+
+As shown in Fig. 4, there will be an encoder at the end of the game to store the data of the users in a manner which is safe. If the file is leaked, the encoder will ensure that no one is able to find personal details about the users.
+
 ### Cesar's Cypher
 The database in the game has to be protected so that personal data is not exposed. To solve this I am using the Cesar Cypher. **Fig 2.** shows that flow diagram for this function. 
 
@@ -74,3 +80,6 @@ The database in the game has to be protected so that personal data is not expose
 | 11.     | Add a validation function                       | So that if the user inputs something that is not a 1 or a 2, it will ask the user until they put the right input. | 20 minutes    | October 13             | C         |
 | 12.     | Add a clear function                            | To make the game run more smoothly                                                                                | 15 minutes    | October 13             | C         |
 | 13.     | Organize everything into one game               | Organize everything so that the game can run smoothly                                                             | 30 minutes    | October 15             | C         |
+| 14.     | Create the first flowchart                      | Create a flowchart that shows the general flow of the entire game                                                 | 30 minutes    | October 18             | B         |
+| 15.     | Create the second flowchart                     | Create a flowchart that showcases how the tournament bracket is randomly generated.                               | 30 minutes.   | October 18             | B         |
+| 16.     | Create the third flowchart                      | Create a flowchart that showcases how the game encodes users' information.                                        | 30 minutes    | October 23             | B         |
