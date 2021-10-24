@@ -31,6 +31,18 @@ I will design and make a classic video game for a client who is looking for a te
 
 Ever since I was little, I would watch the Champions League with family and friends anually. It was a competition that would bring people together with so much joy and excitement. Even if my favorite team could never win, I had a lot of fun watching the tournament. Thus, I wanted to turn all this nostalgia, joy, and excitement into a game. Additionally, I have seen many text-based games that are focused on mystery or survival. However, it is extremely rare to find a text-based game for football. Hence why I decided to create a football game based on the Champions League.
 
+## Design Statement
+
+
+
+## Justification
+
+For this game, I will be using python which is, according to statisticstimes.org, the most used coding language in the world and the language I am most comfortable using. Additionally, according to cisin.com, Python is the most versatile language in the world. My text-based game will be coded on the MacOS system and on a Python editor called "PyCharm". Pycharm was chosen as it is simple and easy to code on. Furthermore, it is very easy to store files in.
+
+## Details
+
+My game, "Champions League Career", will be a text-based game that will allow users to play a Champions League tournament with real teams. The game will include a randomisation of the tournament bracket to ensure the game will differ each time the user plays. Furthermore, the games the user doesn't play will be simulated. The game will consist of decisions that have to be made by the users that will affect the outcome of a match. To win the game, one has to win every match and win the tournament. If one loses a match, it will be game over and they will have to replay the game. Each match will contain three to four decision points. Each decision point throughout the game differ from each other. The game will save the user's username, rating, and time spent on the game. Therefore, if the user were to play the game again, they can look at their previous score. 
+
 # Criteria B: Design
 
 ## System Diagram
