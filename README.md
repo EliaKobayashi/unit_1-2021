@@ -13,27 +13,24 @@ The owner of the local game shop is an enthusiast of classic computer games. He 
 
 Apart for this requirements, the owner is open to any type of game, topic or genre. 
 
-
-## Proposed Solution
-
-I will design and make a classic video game for a client who is looking for a text-based video game with a record of player names and scores. The video game will about football and is constructed using the software python It will take a month to make and will be evaluated according to the criteria ____.
-
-## Success Criteria
-
-1. If the ranking table contains username, score, and is able to properly rank based on scores, it can be deemed successful.
-2. It must validate user inputs.
-4. The game will be a career mode video game based on the champions league. Meaning, the user will become a professional football player and play in the Champions League in the game. 
-6. The video game will have a login system where the player can save their progress.
-7. The user will have a rating which can be improved based on their proformances in matches.
-8. The game will be available in English and Japanese.
-
 ## Personal Problem Definition.
 
 Ever since I was little, I would watch the Champions League with family and friends anually. It was a competition that would bring people together with so much joy and excitement. Even if my favorite team could never win, I had a lot of fun watching the tournament. Thus, I wanted to turn all this nostalgia, joy, and excitement into a game. Additionally, I have seen many text-based games that are focused on mystery or survival. However, it is extremely rare to find a text-based game for football. Hence why I decided to create a football game based on the Champions League.
 
+# Proposed Solution
+
+## Success Criteria
+
+1. The game will calculate how well a user did in the game based on their rating.
+2. It must validate user inputs.
+4. The game will be a career mode video game based on the champions league. Meaning, the user will become a professional football player and play in the Champions League in the game. 
+6. The video game save the rating, time spent, and username of a user.
+7. The user will have a rating which can be improved based on their proformances in matches.
+8. The game will be available in English and Japanese.
+
 ## Design Statement
 
-
+I will design and make a classic video game for a client who is looking for a text-based video game with a record of player names and scores. The theme of the video game is football and is constructed using the software python 3.x. It will take a month to make and will be evaluated according to the success criteria mentioned prior.
 
 ## Justification
 
