@@ -70,6 +70,13 @@ Figure 4. Flow diagram of encoder
 
 As shown in Fig. 4, there will be an encoder at the end of the game to store the data of the users in a manner which is safe. If the file is leaked, the encoder will ensure that no one is able to find personal details about the users.
 
+![](unit_test1.jpg)
+
+Figure 5. First unit testing evidence
+
+![](unit_test2.jpg)
+
+Figure 6. Second unit testing evidence
 ## Test Plan
 
 | Description                                                                | Type                | Inputs                                                                                                                                                          | The Expected Output                                                                                                                                                                                                                                                                                 | Evidence of Output                           |
@@ -78,6 +85,7 @@ As shown in Fig. 4, there will be an encoder at the end of the game to store the
 | Test if the validation function.                                           | Unit Testing        | 1. Initiate the program. 2. When asked to input 1 or 2, input 3.                                                                                                | As the input was not 1 or 2, it should print "Wrong input." and the same message will print again.                                                                                                                                                                                                  | ![](unit_test2.jpg)                          |
 | Test if the entirety of the first match works.                             | Integration Testing | 1. Initiate the program. 2. Input the first scenario. 3. Input the second scenario. 4. Input the third scenario.                                                | Depending on if the user chooses the right decision in the scenarios, they will win or lose. The game should accurately decide if the user won or lost. Furthermore, it should alter their rating according to their choices in the game.                                                           | https://www.youtube.com/watch?v=LoLProu7Gio  |
 | Test if the entire game works                                              | System Testing      | 1. Initiate the program. 2. Complete the introduction. 3. Finish the round of 16. 4. Finish the quarter-finals. 5. Finish the semi-finals. 6. Finish the final. | The game should smoothly play through each match and depending on the results of the matches, the game should print the accurate outcome. The game will end with the user either winning or losing the tournament. Furthermore, the game should ask if the user would like to save their progress.  | https://www.youtube.com/watch?v=y8yJ-U5exgw  |
+
 
 ## Record of Tasks
 | Task No | Planned Action                                  | Planned Outcome                                                                                                   | Time estimate | Target completion date | Criterion |
