@@ -70,11 +70,11 @@ Figure 4. Flow diagram of encoder
 
 As shown in Fig. 4, there will be an encoder at the end of the game to store the data of the users in a manner which is safe. If the file is leaked, the encoder will ensure that no one is able to find personal details about the users.
 
-![](unit_test1.jpg)
+![](unit_test1.png)
 
 Figure 5. First unit testing evidence
 
-![](unit_test2.jpg)
+![](unit_test2.png)
 
 Figure 6. Second unit testing evidence
 ## Test Plan
