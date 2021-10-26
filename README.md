@@ -119,21 +119,23 @@ import os
 import time
 time.sleep(1.5)
 import sys
+# printing in a slow manner
 def dp(str):
     for char in str:
         sys.stdout.write(char)
         sys.stdout.flush()
         time.sleep(0.025)
     return ""
+# clearing the texts
 def clear():
     os.system("clear")
-
+# Validation for the scenarios
 def validation(msg):
     option = int(input(dp(msg)))
     while option not in [1, 2]:
         option = int(input(dp("Wrong input" + msg)))
     return option
-
+# Introduction to the game
 username = input(dp("Welcome to Champions League Career! Please input your username: \n"))
 dp(f"Hi {username}! This game is a simulation of a Champions League. \n")
 dp("You will be making decisions which will affect your player's rating.\n ")
@@ -154,6 +156,7 @@ clear()
 #position = input("Enter here: ")
 #while position not in "GKDFMFAC":
     #position = input("Wrong input. Please enter either 'GK','DF', 'MF', 'AC': ")
+# System to create the round of 16 randomly
 import random
 first_teams = ["Milan", "Atletico Madrid", "Real Madrid", "Dortmund", "Barcelona", "Atalanta", "Sevilla", "Juventus"]
 second_teams = ["Manchester City", "PSG", "Chelsea", "Bayern", "Manchester United", "Liverpool", "Inter Milan", "Porto"]
@@ -274,7 +277,7 @@ eighth_match = [fifteenth_bracket , sixteenth_bracket]
 
 game_rating = 0
 goal = 0
-#First scenario
+# First scenario
 dp("And the whistle blows! The round of 16 starts now! \n")
 clear()
 one_ac = validation("You are in the box and a player crossed the ball to you. \n Type 1 for an overhead kick. 2 to head the ball: \n")
@@ -302,6 +305,7 @@ if one_ac == 2:
     game_rating += 1
     goal += 1
 clear()
+# If the game ends in a tie
 if goal == 0:
     penalty1 = validation("The match tied and you have a last minute penalty. \n Type 1 for shooting left. Type 2 for shooting right: \n")
     if penalty1 == 1:
@@ -314,6 +318,7 @@ clear()
 if goal <= -1:
     dp("GAME OVER. Your team lost the Champions league \n")
 else:
+    # Simulating the other matches of the round of 16
     if first_team not in first_match:
         q_first_match =(random.choice(first_match))
         # dp(f"{q_first_match} won! \n")
@@ -354,6 +359,7 @@ else:
         # dp(f"{q_eighth_match} won! \n")
     else:
         q_eighth_match = first_team
+    # randomizing the quarter-finals bracket
     quarterfinals = [q_first_match, q_second_match, q_third_match, q_fourth_match, q_fifth_match, q_sixth_match, q_seventh_match, q_eighth_match]
     first_bracket2 = random.choice(quarterfinals)
     quarterfinals.remove(first_bracket2)
@@ -413,7 +419,7 @@ else:
     second_match2 = [third_bracket2 , fourth_bracket2]
     third_match2 = [fifth_bracket2 , sixth_bracket2]
     fourth_match2 = [seventh_bracket2 , eighth_bracket2]
-
+    # Second scenario
     game_rating = 0
     goal = 0
     dp("The whistle blows! The quarter-finals start now! \n")
@@ -448,6 +454,7 @@ else:
         dp("The player dribbling shoots and scores!\n")
         goal -= 1
     clear()
+    # If the game ends in a tie
     if goal == 0:
         one_ac = validation("You get a last minute corner kick. \n Type 1 to cross the ball. Type 2 to pass short.\n")
         if one_ac == 1:
@@ -460,6 +467,7 @@ else:
         dp("GAME OVER. Your team lost the Champions league.\n")
         clear()
     else:
+    # Simulating the other matches in the quarter-finals
         if first_team not in first_match2:
             s_first_match = (random.choice(first_match))
             # dp(f"{s_first_match} won! \n")
@@ -480,6 +488,7 @@ else:
             # dp(f"{s_fourth_match} won! \n")
         else:
             s_fourth_match = first_team
+        # randomizing the semi-finals bracket
         semifinals = [s_first_match, s_second_match, s_third_match, s_fourth_match]
         first_bracket3 = random.choice(semifinals)
         semifinals.remove(first_bracket3)
@@ -511,7 +520,7 @@ else:
         clear()
         first_match3 = [first_bracket3, second_bracket3]
         second_match3 = [third_bracket3, fourth_bracket3]
-
+        # Third scenario
         game_rating = 0
         goal = 0
         dp("The whistle blows and the semi-finals begin!\n")
@@ -559,7 +568,7 @@ else:
             dp("Your tackle leads to a foul. The other team receives a free kick and they score!\n")
             goal -= 1
         clear()
-
+        # If the game ends in a tie
         if goal == 0:
             one_ac = validation("You are dribbling down the left side of the pitch. There is no one in the box to cross to. But, there is someone outside the box. Type 1 to pass to the player outside the box. Type 2 to keep dribbling.\n")
             if one_ac == 1:
@@ -583,6 +592,7 @@ else:
         if goal <= -1:
             dp("GAME OVER. You lost the Champioins League.")
         else:
+            # Simulate the other match in the semi-finals
             if first_team not in first_match3:
                 f_first_match = (random.choice(first_match3))
                 # dp(f"{q_first_match} won! \n")
@@ -593,6 +603,7 @@ else:
                 # dp(f"{q_second_match} won! \n")
             else:
                 f_second_match = first_team
+            # To create the final
             final = [f_first_match, f_second_match]
             dp("Now the final begins! Tha match is the following:\n")
             dp(f"{f_first_match} versus {f_second_match} \n")
@@ -603,7 +614,7 @@ else:
                 dp(f"You are going to go against {f_first_match}\n")
                 first_team = f_second_match
             clear()
-
+            # Final scenario
             game_rating = 0
             goal = 0
             dp("The whistle blows and the champions league final begins!\n")
@@ -648,6 +659,7 @@ else:
                 dp("You weren't fast enough and the opponent sprinted away. They crossed the ball into the box and SCORE!!\n")
                 goal -= 1
             clear()
+            # If the game ends in a tie
             if goal == 0:
                 one_ac = validation("You get a last minute penalty. Type 1 to shoot right. Type 2 to shoot left.\n")
                 if one_ac == 1:
@@ -671,6 +683,7 @@ else:
                 dp("GAME OVER. You lost the Champioins League.\n")
             else:
                 dp("YOU ARE NOW THE CHAMPIONS LEAGUE WINNER! CONGRATULATIONS!\n")
+            # ASCII of a trophy
             trophy = '''
              ___________
             '._==_==_=_.'
@@ -691,26 +704,30 @@ The following code is my entire game. It is quite long because there is a Japane
 ```.py
 import os
 import time
+# Delay to smoothen the game
 def delay():
     time.sleep(2)
 
 def delay2():
     time.sleep(0.5)
 import sys
+# For letters to smoothly print
 def dp(str):
     for char in str:
         sys.stdout.write(char)
         sys.stdout.flush()
         time.sleep(0.025)
     return ""
+# Clear texts throughout the game
 def clear():
     os.system("clear")
-
+# Function to validate inputs
 def validation(msg):
     option = int(input(dp(msg)))
     while option not in [1, 2]:
         option = int(input(dp("Wrong input." + msg)))
     return option
+# Function to add ratings throughout the game
 def add_rating(rating, game_rating):
     add_rating = rating + (game_rating * 2)
     return add_rating
@@ -719,6 +736,7 @@ delay2()
 dp("ようこそチャンピョンリーグサッカー遊んでありがとうございます。")
 delay()
 clear()
+# Choosing between playing in English and playing in Japanese
 language = int(input(dp("If you would like to play in English type 1\n日本語で遊びたかったら２を入力してください。\n")))
 if language == 1:
     validate = input(dp("Have you played the game before? Type yes or no:\n"))
@@ -727,6 +745,7 @@ if language == 1:
     if validate == "no":
         exist = False
     if validate == "yes":
+        # So that people who have played before can see their previous score before playingg
         validate2 = input(dp("Would you like to see what your score was? Type yes or no:\n"))
         while validate2 not in "yesno":
             validate2 = input(dp("Please type yes or no:\n"))
@@ -751,6 +770,7 @@ if language == 1:
     clear()
     start = time.time()
     if exist == False:
+    # Introduction
         username = input(dp("Welcome to Champions League Career! Please create a username: \n"))
     dp(f"Hi {username}! This game is a simulation of a Champions League. \n")
     delay2()
@@ -772,6 +792,7 @@ if language == 1:
     dp(f"Welcome {username} to your first team {first_team}. \n")
     delay()
     clear()
+    # Randomly generates round of 16
     import random
     first_teams = ["Milan", "Atletico Madrid", "Real Madrid", "Dortmund", "Barcelona", "Atalanta", "Sevilla", "Juventus"]
     second_teams = ["Manchester City", "PSG", "Chelsea", "Bayern", "Manchester United", "Liverpool", "Inter Milan", "Porto"]
@@ -899,10 +920,10 @@ if language == 1:
     sixth_match = [eleventh_bracket , twelfth_bracket]
     seventh_match = [thirteenth_bracket , fourteenth_bracket]
     eighth_match = [fifteenth_bracket , sixteenth_bracket]
-
+    # Round of 16
     game_rating = 0
     goal = 0
-    #First scenario
+    #First match
     dp("And the whistle blows! The round of 16 starts now!\n")
     delay()
     clear()
@@ -937,6 +958,7 @@ if language == 1:
         goal += 1
     delay()
     clear()
+    # If the match is tied
     if goal == 0:
         penalty1 = validation("The match tied and you have a last minute penalty.\n Type 1 for shooting left. Type 2 for shooting right: \n")
         delay2()
@@ -953,6 +975,7 @@ if language == 1:
     if goal <= -1:
         dp("GAME OVER. Your team lost the Champions league \n")
     else:
+        # simulating the round of 16
         rating = add_rating(rating, game_rating)
         dp(f"You won the game! You are moving onto the next round\n")
         delay2()
@@ -999,6 +1022,7 @@ if language == 1:
             # dp(f"{q_eighth_match} won! \n")
         else:
             q_eighth_match = first_team
+        # Randomizing the quarter-finals
         quarterfinals = [q_first_match, q_second_match, q_third_match, q_fourth_match, q_fifth_match, q_sixth_match, q_seventh_match, q_eighth_match]
         first_bracket2 = random.choice(quarterfinals)
         quarterfinals.remove(first_bracket2)
@@ -1064,7 +1088,7 @@ if language == 1:
         second_match2 = [third_bracket2 , fourth_bracket2]
         third_match2 = [fifth_bracket2 , sixth_bracket2]
         fourth_match2 = [seventh_bracket2 , eighth_bracket2]
-
+        # Second match
         game_rating = 0
         goal = 0
         dp("The whistle blows! The quarter-finals start now! \n")
@@ -1107,6 +1131,7 @@ if language == 1:
             goal -= 1
         delay()
         clear()
+        # If the game is tied
         if goal == 0:
             one_ac = validation("You get a last minute corner kick.\n Type 1 to cross the ball. Type 2 to pass short.\n")
             delay2()
@@ -1121,6 +1146,7 @@ if language == 1:
         if goal <= -1:
             dp("GAME OVER. Your team lost the Champions league.\n")
         else:
+            # Simulating the quarter-finals
             rating = add_rating(rating, game_rating)
             dp(f"You won the game! You are moving onto the next round\n")
             delay2()
@@ -1146,7 +1172,9 @@ if language == 1:
                 s_fourth_match = (random.choice(fourth_match))
                 # dp(f"{s_fourth_match} won! \n")
             else:
+                # randomizing the semifinals
                 s_fourth_match = first_team
+            # Randomizing the semi-finals
             semifinals = [s_first_match, s_second_match, s_third_match, s_fourth_match]
             first_bracket3 = random.choice(semifinals)
             semifinals.remove(first_bracket3)
@@ -1182,7 +1210,7 @@ if language == 1:
             clear()
             first_match3 = [first_bracket3, second_bracket3]
             second_match3 = [third_bracket3, fourth_bracket3]
-
+            # Third match
             game_rating = 0
             goal = 0
             dp("The whistle blows and the semi-finals begin!\n")
@@ -1241,7 +1269,7 @@ if language == 1:
                 goal -= 1
             delay()
             clear()
-
+            # If the game is tied
             if goal == 0:
                 one_ac = validation("You are dribbling down the left side of the pitch. There is no one in the box to cross to. But, there is someone outside the box.\nType 1 to pass to the player outside the box. Type 2 to keep dribbling.\n")
                 delay2()
@@ -1269,6 +1297,7 @@ if language == 1:
             if goal <= -1:
                 dp("GAME OVER. You lost the Champions League.")
             else:
+                # Simulating the semi-finals
                 rating = add_rating(rating, game_rating)
                 dp(f"You won the game! You are moving onto the next round\n")
                 delay2()
@@ -1285,6 +1314,7 @@ if language == 1:
                     # dp(f"{q_second_match} won! \n")
                 else:
                     f_second_match = first_team
+                # Creating the final
                 final = [f_first_match, f_second_match]
                 dp("Now the final begins! The match is the following:\n")
                 delay2()
@@ -1299,7 +1329,7 @@ if language == 1:
                     first_team = f_second_match
                 delay()
                 clear()
-
+                # Fourth and final match
                 game_rating = 0
                 goal = 0
                 dp("The whistle blows and the champions league final begins!\n")
@@ -1354,6 +1384,7 @@ if language == 1:
                     goal -= 1
                 delay()
                 clear()
+                # If the game is tied
                 if goal == 0:
                     one_ac = validation("You get a last minute penalty.\n Type 1 to shoot right. Type 2 to shoot left.\n")
                     delay2()
@@ -1385,6 +1416,7 @@ if language == 1:
                     rating = add_rating(rating, game_rating)
                     if rating > 99:
                         rating = 99
+                    # Final rating and evaluation
                     dp(f"Your final rating is {rating}\n")
                     delay()
                     clear()
@@ -1396,6 +1428,7 @@ if language == 1:
                         dp("Your player is the best player of the tournament!\n")
                     delay()
                     clear()
+                    # ASCII of a trophy
                     trophy = '''
                      ___________
                     '._==_==_=_.'
@@ -1411,12 +1444,13 @@ if language == 1:
                     print(trophy)
                     delay()
                     clear()
-
+    # Time stops and calculates how much time was spent
     stop = time.time()
     total_time=stop-start
     dp(f"You spend amount of time you spent on the game is the following: {total_time}")
     delay()
     clear()
+    # Encoder
     def encoder(message: str, shift: int):
         alphabet = "abcdefghijklmnopqrstuvwxyz"
         answer = ''
@@ -1430,11 +1464,11 @@ if language == 1:
                 answer += chr(shifted_code)
         return answer
     out = encoder(username, 6)
-
+    
     with open("database.txt", "w") as files:
         line = f"{out}, {rating}, {total_time}\n"
         files.write(line)
-
+    # Saving username, rating, and time
     saving_score = input(dp("Would you like to save your score? Type yes or no\n"))
     while saving_score not in "yesno":
         saving_score = input(dp("Please type in either yes or no\n"))
@@ -1451,7 +1485,7 @@ else:
             option = int(input(dp("間違った入力です" + msg)))
         return option
 
-
+    # Same game but if the user chooses Japanese
     validate = input(dp("このゲームを遊んだことありますか？　遊びましたら１を入力して遊んだことなかったら、２を入力してください:\n"))
     while validate not in "１２":
         validate = input(dp("１か２を入力してください:\n"))
