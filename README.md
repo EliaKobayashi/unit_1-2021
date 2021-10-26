@@ -87,8 +87,8 @@ Figure 6. Second unit testing evidence
 | Test if the entire game works                                              | System Testing      | 1. Initiate the program. 2. Complete the introduction. 3. Finish the round of 16. 4. Finish the quarter-finals. 5. Finish the semi-finals. 6. Finish the final. | The game should smoothly play through each match and depending on the results of the matches, the game should print the accurate outcome. The game will end with the user either winning or losing the tournament. Furthermore, the game should ask if the user would like to save their progress.  | https://www.youtube.com/watch?v=y8yJ-U5exgw  |
 
 ## Record of Tasks
-| Task No | Planned Action                                  | Planned Outcome                                                                                                   | Time estimate | Target completion date | Criterion |
-|---------|-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+| Task No |                  Planned Action                 |                                                  Planned Outcome                                                  | Time estimate | Target completion date | Criterion |
+|:-------:|:-----------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------:|:-------------:|:----------------------:|:---------:|
 | 1.      | Write a proposed solution                       | To find a solution that solves the client's problems                                                              | 15 minutes    | September 20           | A         |
 | 2.      | To create a success criteria                    | To find ways to evaluate whether my solution is successful or not                                                 | 15 minutes    | September 20           | A         |
 | 3.      | Create system diagram.                          | To have a clear idea of the hardware and software of the program                                                  | 10 minutes    | September 20           | B         |
@@ -105,6 +105,8 @@ Figure 6. Second unit testing evidence
 | 14.     | Create the first flowchart                      | Create a flowchart that shows the general flow of the entire game                                                 | 30 minutes    | October 18             | B         |
 | 15.     | Create the second flowchart                     | Create a flowchart that showcases how the tournament bracket is randomly generated.                               | 30 minutes.   | October 18             | B         |
 | 16.     | Create the third flowchart                      | Create a flowchart that showcases how the game encodes users' information.                                        | 30 minutes    | October 23             | B         |
+| 17.     | Create a Japanese version of the game.          | Code a Japanese game so that there are two language options                                                       | 2 hours       | October 25             | C         |
+| 18.     | Create the testing plan.                        | create a table with all the testing that is done on my game.                                                      | 30 minutes    | October 26             | B         |
 
 ## Minimum Viable Product
 
