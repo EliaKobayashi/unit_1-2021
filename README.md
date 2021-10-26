@@ -19,6 +19,8 @@ Ever since I was little, I would watch the Champions League with family and frie
 
 # Proposed Solution
 
+![](repo_pic.png)
+
 ## Success Criteria
 
 1. The game will calculate how well a user did in the game based on their rating.
