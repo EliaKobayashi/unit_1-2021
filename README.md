@@ -683,8 +683,7 @@ else:
 ```
 ## My Game
 
-The following code is my entire game. It is quite long because there is a Japanese option and English option. 
-
+The following code is my entire game. It is quite long because there is a Japanese option and English option. There is a video of me playing the game above in the table with the system testing.
 ```.py
 import os
 import time
