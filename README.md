@@ -36,7 +36,7 @@ I will design and make a classic video game for a client who is looking for a te
 
 ## Justification
 
-For this game, I will be using python which is, according to statisticstimes.org, the most used coding language in the world and the language I am most comfortable using. Additionally, according to cisin.com, Python is the most versatile language in the world. My text-based game will be coded on the MacOS system and on a Python editor called "PyCharm". Pycharm was chosen as it is simple and easy to code on. Furthermore, it is very easy to store files in.
+For this game, I will be using python which is, according to statisticstimes.org, the most used coding language in the world and the language I am most comfortable using. Additionally, according to cisin.com, Python is the most versatile language in the world. My text-based game will be coded on the MacOS system and on a Python editor called "PyCharm". Pycharm was chosen as it is simple and easy to code on. Furthermore, it is very easy to store files in. As the client did not have many requirments, I was free to pick my own theme and structure if it met the three requests.
 
 ## Details
 
