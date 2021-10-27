@@ -79,6 +79,11 @@ Figure 5. First unit testing evidence
 ![](unit_test2.png)
 
 Figure 6. Second unit testing evidence
+
+![](Code_review.png)
+
+Figure 7. Introduction of the game showcasing the code review
+
 ## Test Plan
 
 |                                 Description                                |         Type        |                                                                                Inputs                                                                                |                                                                                                                                                                                          The Expected Output                                                                                                                                                                                         |              Evidence of Output             |
