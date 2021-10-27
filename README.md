@@ -132,7 +132,11 @@ Figure 9. Introduction of the game showcasing the code review
 
 ## Minimum Viable Product
 
-The following is my MVP which is the basic demonstration of my game. My MVP includes the basic outline of my entire game without many features. This was sent to G12s to get feedback which I will recieve soon. I showed the MVP to my friends which I recevied feedback from. 
+The following is my MVP which is the basic demonstration of my game. My MVP includes the basic outline of my entire game without many features. This was sent to the client and this was his feedback:
+1. There was a bug as there was no validation.
+2. There are not enough comments.
+3. The code is hard to follow because there are many variables with the same name
+I showed the MVP to my friends which I recevied feedback from. 
 1. It didn't meet all the requirements from the client.
 2. It wasn't very smooth and should have a delay function.
 3. Choosing a position does not do much as it is not needed in the game.
