@@ -112,7 +112,7 @@ Figure 6. Second unit testing evidence
 
 ## Minimum Viable Product
 
-The following is my MVP which is the basic demonstration of my game. My MVP includes the basic outline of my entire game without many features. This was sent to G12s to get feedback which I will recieve soon.
+The following is my MVP which is the basic demonstration of my game. My MVP includes the basic outline of my entire game without many features. This was sent to G12s to get feedback which I will recieve soon. The code for my entire game is below the MVP.
 
 ```.py
 import os
